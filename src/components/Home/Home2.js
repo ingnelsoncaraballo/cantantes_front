@@ -8,6 +8,7 @@ function Home2() {
 
   useEffect(() => {
     const cantantes = obtenerCantantes();
+    console.log(cantantes);
     setCantantes(cantantes);
   }, [])
   
